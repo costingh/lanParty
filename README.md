@@ -6,12 +6,6 @@ Facultatea de Automatica si Calculatoare prin LSAC organizează in fiecare semes
 
 ## Cerinte
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-
 1. Se va crea o listă cu informațiile din fișierul d.in(lista se va forma prin adaugarea elementelor la inceput - O(1)).
 2. Se vor elimina din lista anterior creată, echipele cu cel mai mic punctaj de echipă (informațiile despre modul de calcul al acestui punctaj se găsesc în cadrul secțiunii Detalii Tehnice) astfel incat in lista sa ramana n echipe (unde n maxim si n este putere a lui 2).În cazul în care mai multe echipe au acelasi scor se elimina prima echipă gasita in lista. Dupa fiecare eliminare se va relua parcurgerea listei de la cap.
 3. Se vor implementa structurile de date necesare pentru a se efectua meciurile:
@@ -164,8 +158,9 @@ TWISTING TORNADOES                -  5.50
 ...
 ```
 Executabilul obținut în urma compilării va avea numele lanParty, iar regula de rulare va fi:
+```bash
 ./lanParty c.in d.in r.out
-
+```
 
 
 
